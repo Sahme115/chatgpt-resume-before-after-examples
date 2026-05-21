@@ -2,7 +2,24 @@
 
 > A catalog of resumes that ChatGPT wrote badly, the recruiter-grade rewrites that fix them, and line-by-line annotations explaining what changed and why.
 
-This repo is a **reading resource**, not a tool. 21 full worked cases across 6 role categories, each one paired with a recruiter annotation. If you've ever asked "what's actually wrong with my AI-generated resume," every case here is one answer.
+This repo is a **reading resource**, not a tool. 33 full worked cases across 10 role categories, each one paired with a recruiter annotation. If you've ever asked "what's actually wrong with my AI-generated resume," every case here is one answer.
+
+## Downloads
+
+- [The 8 AI resume failure modes (PDF poster)](downloads/ai-resume-patterns-poster.pdf)
+- [Same content as Markdown](downloads/ai-resume-patterns-poster.md)
+
+## Live tool preview
+
+The same logic in this repo powers [cvpage.org](https://cvpage.org):
+
+![Before / After resume examples gallery](screenshots/before-after-gallery.png)
+
+![Resume Humanizer paste workflow](screenshots/humanizer-empty.png)
+
+![ChatGPT Resume Fix mid-rewrite](screenshots/chatgpt-fix.png)
+
+![Resume Sounds AI-Generated diagnostic](screenshots/ai-generated-detail.png)
 
 These cases were curated against the same credibility heuristics used by the production pipeline at [cvpage.org](https://cvpage.org) — open-sourced here for anyone who'd rather learn from worked examples than blog posts.
 
@@ -18,6 +35,10 @@ These cases were curated against the same credibility heuristics used by the pro
 | [examples/sales/](examples/sales) | 3 | SDR, AE, sales leadership |
 | [examples/design/](examples/design) | 3 | Product designer, senior designer, junior |
 | [examples/operations/](examples/operations) | 3 | RevOps, BizOps, People Ops |
+| [examples/data-analyst/](examples/data-analyst) | 3 | Junior, mid-level, ML-leaning senior |
+| [examples/finance/](examples/finance) | 3 | FP&A, IB analyst, controller |
+| [examples/customer-success/](examples/customer-success) | 3 | CSM, onboarding, technical CS |
+| [examples/engineering-management/](examples/engineering-management) | 3 | EM, senior EM, director |
 | [annotations/](annotations) | 2 docs | How recruiters read · What AI gets wrong |
 
 ---
